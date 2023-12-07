@@ -23,6 +23,7 @@ public class Day2 {
                 int sIndex = 2;
                 String[] tokens = line.split(" ");
                 boolean good = true;
+
                 while (sIndex < tokens.length) {
                     int amt = Integer.parseInt(tokens[sIndex++]);
                     String color = tokens[sIndex++];
@@ -36,12 +37,11 @@ public class Day2 {
                         good = false;
                     }
                 }
+
                 if (good) {
                     result += index;
                 }
             }
-
-            System.out.println("The result is: " + result);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
