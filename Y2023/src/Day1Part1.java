@@ -16,7 +16,7 @@ public class Day1Part1 {
 
             System.out.println("The sum of all calibration values is: " + sum);
         } catch (IOException e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
     }
 
