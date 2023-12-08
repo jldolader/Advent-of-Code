@@ -16,8 +16,10 @@ Welcome to my solutions repository for Advent of Code 2023! Advent of Code is an
 
 Here's a list of my solutions organized by day:
 
-- [Day 1](day1/)
-- [Day 2](day2/)
+- [Day 1](Y2023/src/Day1.java)
+- [Day 2](Y2023/src/Day2.java)
+- [Day 3](Y2023/src/Day3.java)
+- [Day 4](Y2023/src/Day4.java)
 
 Feel free to explore the directories for each day to see the code and read about the challenges.
 
